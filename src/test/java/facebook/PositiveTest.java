@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class PositiveTest {
     public static void main(String[] args) {
         // Путь к ChromeDriver
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Acer\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Acer\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 
         // Инициализация драйвера браузера
         WebDriver driver = new ChromeDriver();
